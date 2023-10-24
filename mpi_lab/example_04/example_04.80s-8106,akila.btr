@@ -1,0 +1,8 @@
+
+example_04:8106 terminated with signal 11 at PC=7fd5f1247580 SP=7ffe853fe0a0.  Backtrace:
+/lib/x86_64-linux-gnu/libc.so.6(+0x47580)[0x7fd5f1247580]
+/lib/x86_64-linux-gnu/libc.so.6(atoi+0x14)[0x7fd5f1243654]
+./example_04(+0x13ab)[0x55748a7fb3ab]
+/lib/x86_64-linux-gnu/libc.so.6(+0x29d90)[0x7fd5f1229d90]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x80)[0x7fd5f1229e40]
+./example_04(+0x1225)[0x55748a7fb225]
