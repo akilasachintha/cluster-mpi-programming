@@ -1,0 +1,15 @@
+
+example_07:21524 terminated with signal 11 at PC=7f525557b090 SP=7ffd58c9b618.  Backtrace:
+/lib/x86_64-linux-gnu/libc.so.6(+0x17b090)[0x7f525557b090]
+/lib/x86_64-linux-gnu/libmpich.so.12(+0x217c7b)[0x7f5255a17c7b]
+/lib/x86_64-linux-gnu/libmpich.so.12(+0x234dd8)[0x7f5255a34dd8]
+/lib/x86_64-linux-gnu/libmpich.so.12(+0x23530f)[0x7f5255a3530f]
+/lib/x86_64-linux-gnu/libmpich.so.12(+0x1a5195)[0x7f52559a5195]
+/lib/x86_64-linux-gnu/libmpich.so.12(+0x1f2948)[0x7f52559f2948]
+/lib/x86_64-linux-gnu/libmpich.so.12(+0x1f2ac3)[0x7f52559f2ac3]
+/lib/x86_64-linux-gnu/libmpich.so.12(+0x1f2cde)[0x7f52559f2cde]
+/lib/x86_64-linux-gnu/libmpich.so.12(PMPI_Scatter+0x566)[0x7f52558a2476]
+./example_07(+0x155b)[0x55c5aa3af55b]
+/lib/x86_64-linux-gnu/libc.so.6(+0x29d90)[0x7f5255429d90]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x80)[0x7f5255429e40]
+./example_07(+0x11c5)[0x55c5aa3af1c5]
